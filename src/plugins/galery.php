@@ -1,7 +1,12 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Alexander
- * Date: 18.01.2018
- * Time: 23:18
- */
+<section>
+    <h2 class="text-center"> Наши работы</h2>
+    <div class="container">
+        <div class="row">
+            <div class="layout">
+                <div id="freewall" class="free-wall">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

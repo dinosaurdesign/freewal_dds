@@ -1,7 +1,14 @@
-<? include 'header.php'?>
+<?php
+include 'header.php';
+?>
+<header>
+    <div class="comtainer-fluid headerofsite">
 
-
-
-
-<h3>ghbdtn vbhf</h3>
-<? include 'footer.php'?>
+    </div>
+</header>
+<?php
+include 'plugins/galery.php';
+?>
+<div class=""></div>
+<?php
+include 'footer.php';

@@ -51,7 +51,8 @@ gulp.task('browsersync', function () {
 gulp.task('watch', ['browsersync', 'sass'], function () {
     gulp.watch(path.src.sass, ['sass']); // Наблюдение за sass файлами в папке sass
     //gulp.watch(path.src.html, browsersync.reload); // Наблюдение за HTML файлами в корне проекта
-    gulp.watch(path.src.php, browsersync.reload); // Наблюдение за HTML файлами в корне проекта
+    gulp.watch(path.src.php, browsersync.reload); // Наблюдение за php файлами в корне проекта
+    gulp.watch(path.src.js, browsersync.reload); // Наблюдение за js файлами в корне проекта
 });
 
 gulp.task('img', function() {
