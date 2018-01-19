@@ -34,6 +34,18 @@
                 <div class="mix blue"><img class="img-fluid"
                                            src="https://image.shutterstock.com/z/stock-photo-close-up-portrait-of-a-beautiful-young-african-american-woman-smiling-233378335.jpg"
                                            alt=""></div>
+                <div class="mix blue"><img class="img-fluid"
+                                           src="https://image.shutterstock.com/z/stock-vector-vector-illustration-of-a-hand-drawn-funny-fashionable-pug-458891020.jpg"
+                                           alt=""></div>
+                <div class="mix blue"><img class="img-fluid"
+                                           src="https://image.shutterstock.com/z/stock-vector-monkey-in-astronaut-suit-hand-drawn-vector-illustration-391230694.jpg"
+                                           alt=""></div>
+                <div class="mix blue"><img class="img-fluid"
+                                           src="https://image.shutterstock.com/z/stock-vector--i-would-like-to-be-a-princess-doodle-nursery-illustration-572320366.jpg"
+                                           alt=""></div>
+                <div class="mix blue"><img class="img-fluid"
+                                           src="https://image.shutterstock.com/z/stock-vector-vintage-japanese-chrysanthemum-flowers-pomegranates-branches-leaves-and-birds-vector-seamless-497689288.jpg"
+                                           alt=""></div>
             </div>
 
         </div>
