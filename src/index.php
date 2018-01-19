@@ -10,7 +10,7 @@ include 'header.php';
     </div>
 </header>
 <?php
-include 'plugins/galery.php';
+//include 'plugins/galery.php';
 ?>
 
 <?php

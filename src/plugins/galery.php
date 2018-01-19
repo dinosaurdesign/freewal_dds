@@ -10,11 +10,8 @@
                     <li class=><a href="#">какахи#</a></li>
                 </ul>
             </div>
-
-            <div class="layout">
-                <div id="freewall" class="free-wall">
-
-                </div>
+            <div id="freewall" class="free-wall">
+                <div class='cell' style='background-image: url(https://image.shutterstock.com/z/stock-photo-handsome-man-in-spectacles-portrait-606177383.jpg)'></div>
             </div>
         </div>
     </div>

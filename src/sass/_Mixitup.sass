@@ -12,6 +12,8 @@ ul.controls
     padding: 10px
     cursor: pointer
     transition: background 150ms
+  li.active
+    color: $activemenu
 
 .mixitup-control-active[data-filter]:after
   background: transparent
@@ -42,6 +44,9 @@ ul.controls
     content: ''
     display: inline-block
     width: 100%
+  div
+    img
+      border: red 1px solid
 
 .mix, .gap
   display: inline-block
@@ -56,14 +61,14 @@ ul.controls
   &:before
     content: ''
     display: inline-block
-    padding-top: 56.25%
+    //padding-top: 56.25%
 
 .mix.green
-  //color: #91e6c7
+//color: #91e6c7
 .mix.pink
-  //color: #d595aa
+//color: #d595aa
 .mix.blue
-  //color: #5ecdde
+//color: #5ecdde
 /* Grid Breakpoints */
 /* 2 Columns */
 .mix, .gap
@@ -80,5 +85,4 @@ ul.controls
 @media screen and (min-width: 1281px)
   .mix, .gap
     width: calc(100% / 3 - (((5 - 1) * 1rem) / 5))
-
 
