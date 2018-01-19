@@ -35,3 +35,8 @@ $(function () {
     // caculator width and height for IE7;
     wall.fitZone($(window).width() - 30, $(window).height() - 30);
 });
+
+
+var containerEl = document.querySelector('.container1');
+
+var mixer = mixitup(containerEl);
