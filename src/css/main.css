@@ -92,4 +92,32 @@ section {
             -o-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s;
             transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s; }
 
+ul.controls {
+  font-size: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0; }
+  ul.controls li.control {
+    position: relative;
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+    -webkit-transition: background 150ms;
+    -o-transition: background 150ms;
+    transition: background 150ms; }
+
 /*# sourceMappingURL=main.css.map */
