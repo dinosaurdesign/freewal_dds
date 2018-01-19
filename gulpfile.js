@@ -1,35 +1,36 @@
 var
-    gulp            = require('gulp'),
-    sass            = require('gulp-sass'), // препроцессор sass
-    autoprefixer    = require('gulp-autoprefixer'), // вендорные префексы css
-    sourcemaps      = require('gulp-sourcemaps'), // создание sourcemap
-    concat          = require('gulp-concat'),
-    browsersync     = require('browser-sync'),
-    watch           = require('gulp-watch'),
-    imagemin        = require('gulp-imagemin'), // Подключаем библиотеку для работы с изображениями
-    pngquant        = require('imagemin-pngquant'), // Подключаем библиотеку для работы с png
-    del             = require('del'), // Подключаем библиотеку для удаления файлов и папок
-    cache           = require('gulp-cache'); // Подключаем библиотеку кеширования
+    gulp = require('gulp'),
+    sass = require('gulp-sass'), // препроцессор sass
+    autoprefixer = require('gulp-autoprefixer'), // вендорные префексы css
+    sourcemaps = require('gulp-sourcemaps'), // создание sourcemap
+    nano = require('gulp-cssnano'),
+    concat = require('gulp-concat'),
+    browsersync = require('browser-sync'),
+    watch = require('gulp-watch'),
+    imagemin = require('gulp-imagemin'), // Подключаем библиотеку для работы с изображениями
+    pngquant = require('imagemin-pngquant'), // Подключаем библиотеку для работы с png
+    del = require('del'), // Подключаем библиотеку для удаления файлов и папок
+    cache = require('gulp-cache'); // Подключаем библиотеку кеширования
 //переменные путей
 var path = {
     src: {
-        pug:    'src/pug/pages',
-        html:   'src/*.html',
-        css:    'src/css/',
-        sass:   'src/sass/**/*.*',
-        js:     'src/js/**/*.*',
-        php:    'src/**/*.php',
-        img:    'src/img/**/*.*',
-        fonts:  'src/fonts**/*.*'
+        pug: 'src/pug/pages',
+        html: 'src/*.html',
+        css: 'src/css/',
+        sass: 'src/sass/**/*.*',
+        js: 'src/js/**/*.*',
+        php: 'src/**/*.php',
+        img: 'src/img/**/*.*',
+        fonts: 'src/fonts**/*.*'
     },
     dist: {
-        folders:'dist',
-        php:    'dist',
-        html:   'dist',
-        css:    'dist/css',
-        js:     'dist/js',
-        img:    'dist/img',
-        fonts:  'dist/fonts'
+        folders: 'dist',
+        php: 'dist',
+        html: 'dist',
+        css: 'dist/css',
+        js: 'dist/js',
+        img: 'dist/img',
+        fonts: 'dist/fonts'
     }
 };
 // tasks
@@ -38,6 +39,7 @@ gulp.task('sass', function () {// компиляция sass
         .pipe(sass()) // Преобразуем Sass в CSS посредством gulp-sass
         .pipe(sourcemaps.init())
         .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], {cascade: true})) // Создаем префиксы
+        .pipe(nano())
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest(path.src.css)) // Выгружаем результата в папку
         .pipe(browsersync.reload({stream: true})) // Обновляем CSS на странице при изменении
@@ -56,7 +58,7 @@ gulp.task('watch', ['browsersync', 'sass'], function () {
     gulp.watch('src/libs/css/**/*.*', browsersync.reload); // Наблюдение за js файлами в корне проекта
 });
 
-gulp.task('img', function() {
+gulp.task('img', function () {
     return gulp.src(path.src.img) // Берем все изображения из app
         .pipe(imagemin({
             interlaced: true,
@@ -66,10 +68,10 @@ gulp.task('img', function() {
         }))
         .pipe(gulp.dest(path.dist.img)); // Выгружаем на продакшен
 });
-gulp.task('clean', function() {
+gulp.task('clean', function () {
     return del.sync(path.dist.folders); // Удаляем папку dist перед сборкой
 });
-gulp.task('build', ['clean', 'img', 'sass'], function() {
+gulp.task('build', ['clean', 'img', 'sass'], function () {
 
     var buildCss = gulp.src(path.src.css)
         .pipe(gulp.dest(path.dist.css))
