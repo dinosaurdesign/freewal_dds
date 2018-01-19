@@ -18,7 +18,6 @@
     display: inline-block;
     width: 2.7rem;
     height: 2.7rem;
-    background: #444;
     cursor: pointer;
     font-size: 0.1px;
     color: white;
@@ -99,8 +98,7 @@
 
 .container1 {
     padding: 1rem;
-    text-align: justify;
-    font-size: 0.1px;
+
 }
 
 .container1:after {
@@ -117,18 +115,12 @@
     display: inline-block;
     vertical-align: top;
 }
-
 .mix {
-
     background: #fff;
     border-top: .5rem solid currentColor;
     border-radius: 2px;
     margin-bottom: 1rem;
     position: relative;
-}
-.mix > .miximg {
-    max-width: 350px; !important;
-
 }
 
 .mix:before {
@@ -136,7 +128,6 @@
     display: inline-block;
     padding-top: 56.25%;
 }
-
 .mix.green {
     color: #91e6c7;
 }
@@ -186,7 +177,7 @@
     .mix,
     .gap,
     .miximg{
-        width: calc(50%/5 - (((5 - 1) * 1rem) / 5));
+        width: calc(100%/5 - (((5 - 1) * 1rem) / 5));
     }
 }
 
