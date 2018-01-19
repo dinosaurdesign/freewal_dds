@@ -37,6 +37,6 @@ $(function () {
 });
 
 
-var containerEl = document.querySelector('.container1');
+var containerEl = document.querySelector('.galery_container');
 
 var mixer = mixitup(containerEl);
