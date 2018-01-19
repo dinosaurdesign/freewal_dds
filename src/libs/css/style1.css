@@ -126,7 +126,8 @@
     margin-bottom: 1rem;
     position: relative;
 }
-.mix>img {
+.mix > .miximg {
+    max-width: 350px; !important;
 
 }
 
@@ -155,7 +156,7 @@
 
 .mix,
 .gap,
-img.miximg {
+.miximg {
     width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
 }
 
@@ -164,7 +165,7 @@ img.miximg {
 @media screen and (min-width: 541px) {
     .mix,
     .gap,
-    img.miximg {
+    .miximg {
         width: calc(100%/3 - (((3 - 1) * 1rem) / 3));
     }
 }
@@ -174,7 +175,7 @@ img.miximg {
 @media screen and (min-width: 961px) {
     .mix,
     .gap,
-    img.miximg{
+    .miximg{
         width: calc(100%/4 - (((4 - 1) * 1rem) / 4));
     }
 }
@@ -184,8 +185,8 @@ img.miximg {
 @media screen and (min-width: 1281px) {
     .mix,
     .gap,
-    img.miximg{
-        width: calc(100%/5 - (((5 - 1) * 1rem) / 5));
+    .miximg{
+        width: calc(50%/5 - (((5 - 1) * 1rem) / 5));
     }
 }
 
