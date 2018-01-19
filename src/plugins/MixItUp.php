@@ -3,25 +3,23 @@
         <h2 class="text-center">Примеры наших работ</h2>
         <div class="row">
             <ul class="controls">
-                <li class="control active" data-filter="all">Все работы</li>
-                <li class="control" data-filter=".green">Меню</li>
-                <li class="control" data-filter=".blue">Сайты</li>
-                <li class="control" data-filter=".web">Айдентика</li>
+                <li class="active" data-filter="all">Все работы</li>
+                <li  data-filter=".menu">Меню</li>
+                <li  data-filter=".blue">Сайты</li>
+                <li  data-filter=".web">Айдентика</li>
             </ul>
-
-            <div class="galery_container">
-
-                <div class="mix green">
+            <div class="row galery_container">
+                <div class="mix menu">
                     <img class="img-fluid"
                          src="https://image.shutterstock.com/z/stock-photo-handsome-man-in-spectacles-portrait-606177383.jpg"
                          alt="">
                 </div>
-                <div class="mix green">
+                <div class="mix blue">
                     <img class="img-fluid"
                          src="https://image.shutterstock.com/z/stock-photo-close-up-portrait-of-a-professional-business-woman-smiling-outdoor-287720834.jpg"
                          alt="">
                 </div>
-                <div class="mix blue">
+                <div class="mix menu">
                     <img class="img-fluid"
                          src="https://image.shutterstock.com/z/stock-photo-indoor-portrait-of-beautiful-brunette-young-dark-skinned-woman-with-shaggy-hairstyle-smiling-640005220.jpg"
                          alt="">

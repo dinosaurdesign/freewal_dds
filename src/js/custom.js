@@ -4,7 +4,7 @@ $(".controls li").click(function () {
     $(this).addClass("active");
 })
 
-// for scroll bar appear;
+// mixitup
 $(window).trigger("resize");
 var containerEl = document.querySelector('.galery_container');
 var mixer = mixitup(containerEl);
