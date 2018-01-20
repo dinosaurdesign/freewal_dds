@@ -8,7 +8,7 @@
                 <li  data-filter=".blue">Сайты</li>
                 <li  data-filter=".web">Айдентика</li>
             </ul>
-            <div class="row galery_container">
+            <div class="galery_container">
                 <div class="mix menu">
                     <img class="img-fluid"
                          src="https://image.shutterstock.com/z/stock-photo-handsome-man-in-spectacles-portrait-606177383.jpg"
