@@ -19,7 +19,7 @@ $(function() {
             //effects: 'fade translateZ(-100px)'
             //animateResizeContainer: false, //отмена изменения размеров контейнера
             //queueLimit: false,
-            duration: 250,
+            duration: 100,
             easing: 'ease-in-out'
     }
     });
@@ -32,7 +32,7 @@ $(function(func) {
         textAlign: 'center',
         verticalMiddle: 'true',
         fontColor: '$portfoliotext',
-        withLink: 'true'
+        withLink: 'false'
     });
     setTimeout(func, 200)
 
