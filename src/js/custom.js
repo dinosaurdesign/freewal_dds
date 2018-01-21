@@ -1,3 +1,4 @@
+
 // ative item
 $(function() {
     $(".controls li").click(function () {
@@ -5,9 +6,9 @@ $(function() {
         $(this).addClass("active");
     })
 })
-
-$(function() {
+//==============================================
 // mixitup
+$(function() {
 //     $(window).trigger("resize");
     var containerEl = document.querySelector('.galery_container');
 //     var mixer = mixitup(containerEl);
@@ -23,10 +24,19 @@ $(function() {
     }
     });
 })
+//====================================================================================
+//sliphover
 $(function(func) {
     $('#container').sliphover({
+        backgroundColor: 'rgba(40, 199, 0,.5)',
+        textAlign: 'center',
+        verticalMiddle: 'true',
+        fontColor: '$portfoliotext',
+        withLink: 'true'
     });
     setTimeout(func, 200)
+
+
 })
 
 
