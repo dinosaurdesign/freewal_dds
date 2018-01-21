@@ -1,7 +1,7 @@
 <?php
 include 'header.php';
 ?>
-<header>
+
 <?php
 //include 'plugins/galery.php';
 ?>

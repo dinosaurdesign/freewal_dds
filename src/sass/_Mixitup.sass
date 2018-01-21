@@ -21,46 +21,14 @@ ul.controls
   display: grid
   grid-gap: 15px
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr))
+  overflow: hidden
   .mix
-    display: block
+    display: inline-block
     position: relative
+    cursor: pointer
     box-sizing: content-box
     overflow: hidden
     margin: 12px 0
-    img
-      box-sizing: content-box
-      overflow: hidden
-      width: 100%
-      z-index: 5
-    .filter1
-      visibility: hidden
-      top: 0
-      left: 0
-      bottom: 0
-      right: 0
-      margin: 0
-      position: absolute
-      background: rgba(245, 250, 255, 0.8)
-      z-index: 10
-      .border_portfolio
-        display: block
-        top: 0
-        left: 0
-        bottom: 0
-        right: 0
-        margin: 0
-        position: absolute
-        border: #a8abae solid 1px
-        margin: 15px 20px
-        h3
-          position: absolute
-          top: 50%
-          left: 50%
-          transform: translate(-50%, -50%)
-          align-items: center
-          font-size: 1rem
-          text-align: center
-          color: $portfoliotext
-          z-index: 11
-    &:hover > .filter1
-      visibility: visible
+    img[title]
+      h3
+        color: red
