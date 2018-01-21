@@ -19,7 +19,7 @@ $(function() {
             //effects: 'fade translateZ(-100px)'
             //animateResizeContainer: false, //отмена изменения размеров контейнера
             //queueLimit: false,
-            duration: 100,
+            duration: 250,
             easing: 'ease-in-out'
     }
     });

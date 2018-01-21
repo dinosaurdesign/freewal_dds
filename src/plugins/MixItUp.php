@@ -11,26 +11,25 @@
             <div id="container" class="galery_container">
                 <div class="mix menu">
                     <a href=""><img class="img-fluid"
-                                    src="https://image.shutterstock.com/z/stock-photo-handsome-man-in-spectacles-portrait-606177383.jpg"
-                                    title="<h6>custommmmmmmmmm the caption</h6>
-                         <hr/>
-                         <p>with html, you can put link, button or any other element you want </p>"
-                         alt="">
-                    </a>
-                </div>
-                <div class="mix blue">
-                    <a href=""><img class="img-fluid"
-                                    src="https://image.shutterstock.com/z/stock-photo-handsome-man-in-spectacles-portrait-606177383.jpg"
+                                    src="img/portfolio/menu/lemonades.png"
                                     title="<h6>custom the caption</h6>
                          <hr/>
                          <p>with html, you can put link, button or any other element you want </p>"
                                     alt="">
                     </a>
-
+                </div>
+                <div class="mix blue">
+                    <a href=""><img class="img-fluid"
+                                    src="img/portfolio/menu/lemonades.png"
+                                    title="<h6>custom the caption</h6>
+                         <hr/>
+                         <p>with html, you can put link, button or any other element you want </p>"
+                                    alt="">
+                    </a>
                 </div>
                 <div class="mix menu">
                     <a href=""><img class="img-fluid"
-                                    src="https://image.shutterstock.com/z/stock-photo-handsome-man-in-spectacles-portrait-606177383.jpg"
+                                    src="img/portfolio/menu/lemonades.png"
                                     title="<h6>custom the caption</h6>
                          <hr/>
                          <p>with html, you can put link, button or any other element you want </p>"
@@ -39,7 +38,7 @@
                 </div>
                 <div class="mix web">
                     <a href=""><img class="img-fluid"
-                                    src="https://image.shutterstock.com/z/stock-photo-handsome-man-in-spectacles-portrait-606177383.jpg"
+                                    src="img/portfolio/menu/lemonades.png"
                                     title="<h6>custom the caption</h6>
                          <hr/>
                          <p>with html, you can put link, button or any other element you want </p>"
@@ -48,7 +47,7 @@
                 </div>
                 <div class="mix green menu">
                     <a href=""><img class="img-fluid"
-                                    src="https://image.shutterstock.com/z/stock-photo-handsome-man-in-spectacles-portrait-606177383.jpg"
+                                    src="img/portfolio/menu/lemonades.png"
                                     title="<h6>custom the caption</h6>
                          <hr/>
                          <p>with html, you can put link, button or any other element you want </p>"
@@ -57,7 +56,7 @@
                 </div>
                 <div class="mix blue">
                     <a href=""><img class="img-fluid"
-                                    src="https://image.shutterstock.com/z/stock-photo-handsome-man-in-spectacles-portrait-606177383.jpg"
+                                    src="img/portfolio/menu/lemonades.png"
                                     title="<h6>custom the caption</h6>
                          <hr/>
                          <p>with html, you can put link, button or any other element you want </p>"
@@ -66,7 +65,7 @@
                 </div>
                 <div class="mix web">
                     <a href=""><img class="img-fluid"
-                                    src="https://image.shutterstock.com/z/stock-photo-handsome-man-in-spectacles-portrait-606177383.jpg"
+                                    src="img/portfolio/menu/lemonades.png"
                                     title="<h6>custom the caption</h6>
                          <hr/>
                          <p>with html, you can put link, button or any other element you want </p>"
@@ -75,7 +74,7 @@
                 </div>
                 <div class="mix blue">
                     <a href=""><img class="img-fluid"
-                                    src="https://image.shutterstock.com/z/stock-photo-handsome-man-in-spectacles-portrait-606177383.jpg"
+                                    src="img/portfolio/menu/lemonades.png"
                                     title="<h6>custom the caption</h6>
                          <hr/>
                          <p>with html, you can put link, button or any other element you want </p>"
@@ -84,7 +83,7 @@
                 </div>
                 <div class="mix web">
                     <a href=""><img class="img-fluid"
-                                    src="https://image.shutterstock.com/z/stock-photo-handsome-man-in-spectacles-portrait-606177383.jpg"
+                                    src="img/portfolio/menu/lemonades.png"
                                     title="<h6>custom the caption</h6>
                          <hr/>
                          <p>with html, you can put link, button or any other element you want </p>"
@@ -93,7 +92,7 @@
                 </div>
                 <div class="mix blue">
                     <a href=""><img class="img-fluid"
-                                    src="https://image.shutterstock.com/z/stock-photo-handsome-man-in-spectacles-portrait-606177383.jpg"
+                                    src="img/portfolio/menu/lemonades.png"
                                     title="<h6>custom the caption</h6>
                          <hr/>
                          <p>with html, you can put link, button or any other element you want </p>"
@@ -102,7 +101,7 @@
                 </div>
                 <div class="mix blue">
                     <a href=""><img class="img-fluid"
-                                    src="https://image.shutterstock.com/z/stock-photo-handsome-man-in-spectacles-portrait-606177383.jpg"
+                                    src="img/portfolio/menu/lemonades.png"
                                     title="<h6>custom the caption</h6>
                          <hr/>
                          <p>with html, you can put link, button or any other element you want </p>"
@@ -111,7 +110,7 @@
                 </div>
                 <div class="mix blue">
                     <a href=""><img class="img-fluid"
-                                    src="https://image.shutterstock.com/z/stock-photo-handsome-man-in-spectacles-portrait-606177383.jpg"
+                                    src="img/portfolio/menu/lemonades.png"
                                     title="<h6>custom the caption</h6>
                          <hr/>
                          <p>with html, you can put link, button or any other element you want </p>"
