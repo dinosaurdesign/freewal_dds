@@ -28,7 +28,7 @@ $(function() {
 //sliphover
 $(function(func) {
     $('#container').sliphover({
-        backgroundColor: 'rgba(40, 199, 0,.5)',
+        backgroundColor: 'rgba(255, 255, 0,.5)',
         textAlign: 'center',
         verticalMiddle: 'true',
         fontColor: '$portfoliotext',
